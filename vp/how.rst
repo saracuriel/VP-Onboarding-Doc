@@ -9,6 +9,6 @@ The various levels are illustrated and described by Figure 1 and Table 1. Figure
 
 ..  figure:: _images/f1.png
     :alt:  Illustration of the different levels and their interaction with the Virtual Platform.
-    :width: 100px
+    :width: 100%
 
     Figure 1 - Illustration of the different levels and their interaction with the Virtual Platform.
