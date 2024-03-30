@@ -27,6 +27,7 @@ Contents
 
 .. toctree::
 
+   index
    the_EJPRD_VP
    vp_portal
    .. level_1
