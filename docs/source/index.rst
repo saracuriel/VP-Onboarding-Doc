@@ -29,9 +29,8 @@ Grant agreement number 825575
    :maxdepth: 2
    :caption: Contents
 
-   index
-   the_EJPRD_VP
-   vp_portal
+      1_vp/index
+      2_portal/index
 ..    .. level_1
 ..    .. level_2
 ..    .. level_3
