@@ -22,14 +22,16 @@ Rare Disease European Joint Programme Cofund
 Grant agreement number 825575
 
 
-.. Contents
-.. --------
+Contents
+--------
 
-.. toctreesss : :
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
 
-..    index
-..    the_EJPRD_VP
-..    vp_portal
+   index
+   the_EJPRD_VP
+   vp_portal
 ..    .. level_1
 ..    .. level_2
 ..    .. level_3

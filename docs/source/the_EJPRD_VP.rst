@@ -40,11 +40,9 @@ It is important to note that a resource can start at one level and later choose 
 
 The various levels are illustrated and described by Figure 1 and Table 1. Figure 1 illustrates the different levels to which a resource can connect to the VP. Table 1 provides a summary of the different connection levels to the VP, including a definition of each level, the technical requirements for onboarding, options of access conditions, and an example query that each connection level permits.
 
-    ..  figure:: figures/f1.png
-        :alt:  Illustration of the different levels and their interaction with the Virtual Platform.
-        :width: auto
+.. container:: figure
 
-        Figure 1 - Illustration of the different levels and their interaction with the Virtual Platform.
+   |Figure 1|
 
 
 
@@ -68,3 +66,4 @@ Three levels of connectivity
 ..      - What are the URLs of Catalogs that allow deeper queries? What are the available biobanks? What are the available patient registries?
 
 
+.. |Example ECG| image:: figures/f1.png
