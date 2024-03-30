@@ -40,7 +40,7 @@ It is important to note that a resource can start at one level and later choose 
 
 The various levels are illustrated and described by Figure 1 and Table 1. Figure 1 illustrates the different levels to which a resource can connect to the VP. Table 1 provides a summary of the different connection levels to the VP, including a definition of each level, the technical requirements for onboarding, options of access conditions, and an example query that each connection level permits.
 
-    ..  figure:: /figures/f1.png
+    ..  figure:: figures/f1.png
         :alt:  Illustration of the different levels and their interaction with the Virtual Platform.
         :width: auto
 
@@ -51,20 +51,20 @@ The various levels are illustrated and described by Figure 1 and Table 1. Figure
 Three levels of connectivity
 ~~~~~~~~~~
 
-.. list-table:: Level 1 - Resource Discovery
-   :widths: 80 50 50 50 50
-   :header-rows: 1
+.. .. list-table : : Level 1 - Resource Discovery
+..    :widths: 80 50 50 50 50
+..    :header-rows: 1
 
-   * - Description
-     - Contributes to
-     - Technology Requirements
-     - Access conditions
-     - Example queries
-   * - At this level, the provider commits to openly publish online some standardised metadata about the offered resource, and hence make this available to the VP via the VP Index.
-     - Resource discoverability via open metadata
-     - FAIR Data Point  
-       EJP RD metadata schema
-     - Open access
-     - What are the URLs of Catalogs that allow deeper queries? What are the available biobanks? What are the available patient registries?
+..    * - Description
+..      - Contributes to
+..      - Technology Requirements
+..      - Access conditions
+..      - Example queries
+..    * - At this level, the provider commits to openly publish online some standardised metadata about the offered resource, and hence make this available to the VP via the VP Index.
+..      - Resource discoverability via open metadata
+..      - FAIR Data Point  
+..        EJP RD metadata schema
+..      - Open access
+..      - What are the URLs of Catalogs that allow deeper queries? What are the available biobanks? What are the available patient registries?
 
 
