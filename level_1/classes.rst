@@ -9,9 +9,8 @@ Mandatory Classes
 ~~~~~~~~~~~~
 
 .. list-table:: Level 1 - Mandatory Classes
-	:widths: 25 50 25
+	:widths: 20 60 20
 	:header-rows: 1
-	:text-wrap: auto
 
 	* - Class
 	  - Definition
