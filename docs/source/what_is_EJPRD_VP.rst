@@ -48,8 +48,8 @@ The various levels are illustrated and described by Figure 1 and Table 1. Figure
 Three levels of connectivity
 ~~~~~~~~~~
 
-.. list-table:: Title
-   :widths: auto auto auto
+.. list-table:: Level 1 - Resource Discovery
+   :widths: 80 50 50 50 50
    :header-rows: 1
 
    * - Description
@@ -57,13 +57,10 @@ Three levels of connectivity
      - Technology Requirements
      - Access conditions
      - Example queries
-   * - Level 1: Resource Discovery
-     -
-     - 
    * - At this level, the provider commits to openly publish online some standardised metadata about the offered resource, and hence make this available to the VP via the VP Index.
      - Resource discoverability via open metadata
-     - | FAIR Data Point specification
-       | EJP RD metadata schema
+     - FAIR Data Point  
+       EJP RD metadata schema
      - Open access
      - What are the URLs of Catalogs that allow deeper queries? What are the available biobanks? What are the available patient registries?
 
