@@ -27,3 +27,4 @@ Funding
    :caption: Contents
 
    vp/index
+   portal/index
