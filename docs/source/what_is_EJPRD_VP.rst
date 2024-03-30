@@ -7,7 +7,7 @@ The VP network is designed so that a user, or an algorithm on behalf of a user, 
 
 
 For whom is the EJP RD Virtual Platform intended? 
-------------
+~~~~~~~~~~
 
 Onboarding resources to the VP benefits data resource managers by making their data reusable for rare disease research as well as data users like rare diseases researchers, clinicians, etc, who will have more data available for their analyses. The VP is designed to meet the needs of diverse stakeholders, each with specific objectives related to accessing and processing (meta)data.
 
@@ -20,7 +20,7 @@ Common users of the VP include:
 
 
 Why connect to the EJP RD VP
-------------
+~~~~~~~~~~
 
 By connecting to the EJP RD Virtual Platform, a resource joins a network of data sources that enables them to be semantically interoperable and to be accessible as detailed in the previous section.  It additionally allows the resource to interact and cross-query their metadata and/or data with other resources of relevance within the network. 
 
@@ -29,7 +29,7 @@ Through the process of connecting to the Virtual Platform, the resource is offer
 
 
 How to connect to the EJP RD VP?
-------------
+~~~~~~~~~~
 
 Resources can connect to the VP at different levels. Depending on the level of connection chosen, the VP enables rare disease resources to have their metadata and/or data Findable, Accessible, Interoperable and Reusable (FAIR). Regardless of the level of connection, resources retain full control of their metadata/data by specifying who can access their resources and under which conditions. 
 
@@ -39,6 +39,28 @@ The various levels are illustrated and described by Figure 1 and Table 1. Figure
 
     ..  figure:: /figures/f1.png
         :alt:  Illustration of the different levels and their interaction with the Virtual Platform.
-        :width: 100px
+        :width: auto
 
         Figure 1 - Illustration of the different levels and their interaction with the Virtual Platform.
+
+
+
+Three levels of connectivity
+------------
+
+.. list-table::
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - Header 1
+     - Header 2
+     - Header 3
+   * - Cell 1,1
+     - Cell 1,2
+     - Cell 1,3
+   * - Cell 2,1
+     - Cell 2,2
+     - Cell 2,3
+   * - Cell 3,1
+     - [Cell 3,2 and 3,3 merged]
+
