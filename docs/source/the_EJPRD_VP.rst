@@ -52,7 +52,7 @@ Three levels of connectivity
 ~~~~~~~~~~
 
 .. list-table:: Level 1 - Resource Discovery
-   :widths: 80px 50px 50px 50px 50px
+   :widths: 80 50 50 50 50
    :header-rows: 1
 
    * - Description
