@@ -1,0 +1,10 @@
+How to onboard to Level 1 using the EJP RD metadata schema	
+------------
+
+Resources should provide metadata through a standard mechanism. This can be done by exposing the metadata using the FAIR Data Point (`FDP <https://fairdatapoint.readthedocs.io/en/latest/>`_). The FDP specification describes the standard way by which the VP expects resources to provide access to their metadata.
+ 
+The expected process to collect and make metadata available, alongside available options to do so, is described in Figure 6. The process consists of preparing metadata, deploying an FDP that will be populated with the metadata, adding a VPDiscoverable tag on the FDP, and configuring the FDP to ping the VP:
+
+#.	**Preparing the metadata:** This step involves preparing all the information that will be published on the VP. Preparing the metadata involves collecting all necessary information in formats that are compliant with the EJP RD metadata schema described in this document. This step can be done with the following options,
+##. **Use your own tools:** Users familiar with DCAT and Resource Description Framework (RDF) can use their platform of choice to instantiate the metadata schema described below, host it in an appropriate server and connect it to the VP through API interactions.
+###. **FAIR Data Point Populator (FDP Populator):** The FDP populator is intended for users with any level of expertise that want to populate a pre-existing FDP. This tool automatically populates an FDP previously deployed with the information provided in an Excel template. The template [`link <https://github.com/ejp-rd-vp/resource-metadata-schema/blob/master/template/README.md>`_] contains tooltips and validators that support correctly inputting information. More information on the FDP populator can be found at [`link <https://github.com/ejp-rd-vp/fdp-populator>`_]. 

@@ -8,4 +8,13 @@ To facilitate navigation within this document, each class is hyperlinked to its 
 Mandatory Classes
 ~~~~~~~~~~~~
 
-teste
+.. list-table :: Level 1 - Mandatory Classes
+   :widths: 80 50 50
+   :header-rows: 1
+
+   * - Class
+     - Definition
+     - URI
+   * - Organisation
+   	 - To add resources to the EJP RD Virtual Platform the organisations that provide the resources need to be registered first. For each organisation, the biobanks, patient registries, guidelines, datasets (which may have associated data services) or data services (with no specific dataset), provided by the organisation, need to be added.
+   	 - | foaf:Organisation

@@ -1,5 +1,8 @@
-Requirements to achieve Level 1: Resource Discovery
+Level 1: Resource Discovery
 ===================================
+
+Requirements to achieve level 1
+------------
 
 Level 1 connection is the initial and the only required step for a resource to contribute to the EJP RD VP and serves as a foundation for higher connection levels. When a resource onboards at Level 1, it provides basic information about itself in a standardised, machine-interpretable way (i.e., ‘metadata for machines’). 
 
@@ -16,3 +19,4 @@ Please note that the PURL links may be updated in future releases of the onboard
 
    metadata
    classes
+   onboard
