@@ -23,11 +23,11 @@ The VP Portal consists mainly of three pages:
 
 #. **The Virtual Platform Portal** [`link <https://vp.ejprarediseases.org/discovery>`_]to search for resources related to a specific area of interest in the field of rare diseases to obtain a list of resources that contain knowledge about the disease. The user can enter a disease name, gene name or symbol (Orphacode, ICD code or OMIM code) in the search box which can also provide suggestions based on what is typed. In addition, while entering the disease name, it will automatically be mapped to Orphacodes, the same applies to gene names which are mapped to a gene symbol. After the desired search term has been selected from the proposed list and the user clicks on the search icon, the search parameters are sent to the connected resources. Multiple codes can be selected in this process. As soon as results from the respective resources are available, they are displayed in an overview, which can be expanded if further details about the result are available. An example is show in Figure 4.
 
-..  figure:: /figures/f4.png
-    :alt:  Virtual Platform Portal. This screenshot shows an example of a query result for the search term orpha:730.
-    :width: auto
+	..  figure:: /figures/f4.png
+	    :alt:  Virtual Platform Portal. This screenshot shows an example of a query result for the search term orpha:730.
+	    :width: auto
 
-    Figure 4 - Virtual Platform Portal. This screenshot shows an example of a query result for the search term orpha:730.
+	    Figure 4 - Virtual Platform Portal. This screenshot shows an example of a query result for the search term orpha:730.
 
 In addition, further functionalities are available to specify the search. Different filter criteria can be defined, which are adjustable via "Filter Search". The Metadata Filter Options section can be applied by any user to limit the search to specific resource types or countries. The second section Record Interrogation Filter Options can only be used by authenticated users to set filter criteria on record level, such as gender or age. Furthermore, there is also a list of related orphacodes ranked directly above or below at the classification hierarchy level, in order to extend the search in case of insufficient results.
 
