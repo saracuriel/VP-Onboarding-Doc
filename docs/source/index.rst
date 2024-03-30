@@ -27,10 +27,8 @@ Contents
 
 .. toctree::
 
-   what_is_EJPRD_VP
-   .. why_connect
-   .. how_connect
-   .. vp_portal
+   the_EJPRD_VP
+   vp_portal
    .. level_1
    .. level_2
    .. level_3

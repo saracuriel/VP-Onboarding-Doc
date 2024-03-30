@@ -1,5 +1,8 @@
-What is the EJP RD Virtual Platform?
+The EJP RD Virtual Platform
 ===================================
+
+What is the EJP RD Virtual Platform?
+------------
 
 The EJP RD Virtual Platform network is an ecosystem of data resources and services related to rare diseases, that allows researchers and other stakeholders to easily find, access, and use data for different purposes, such as discovering and analysing it. To be part of this ecosystem, resources need to implement specifications [`link <https://www.ejprarediseases.org/wp-content/uploads/2023/05/EJPRD_P2_AD49_PU_Virtual-Platform-Specification-V2.0.pdf>`_] that make them 'Findable, Accessible, Interoperable, and Reusable (FAIR) for humans and machines'. We call those resources 'VP compliant'. This compliance varies depending on the features that the resources' controllers wish to provide. The more specifications a resource implements, the larger the contribution and empowerment to the functionality of the VP, and to research benefiting the rare disease community.
 
@@ -49,7 +52,7 @@ Three levels of connectivity
 ~~~~~~~~~~
 
 .. list-table:: Level 1 - Resource Discovery
-   :widths: 80 50 50 50 50
+   :widths: 80px 50px 50px 50px 50px
    :header-rows: 1
 
    * - Description
