@@ -8,7 +8,7 @@ To facilitate navigation within this document, each class is hyperlinked to its 
 Mandatory Classes
 ~~~~~~~~~~~~
 
-.. list-table :: Level 1 - Mandatory Classes
+.. list-table:: Level 1 - Mandatory Classes
    :widths: 80 50 50
    :header-rows: 1
 
