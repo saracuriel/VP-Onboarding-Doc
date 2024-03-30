@@ -5,7 +5,7 @@ EJP RD Virtual Platform: Resources onboarding manual
 Disclaimer
 --------
 
-This version of the document is intended for the connection to the Virtual Platform at Level 1(resource discovery) and Level 2 content-based discovery).
+This version of the document is intended for the connection to the Virtual Platform at Level 1 (resource discovery) and Level 2 (content-based discovery).
 
 The Level 3 connections described in this version will be further developed based on the work of the Distributed Analysis focus group.
 
