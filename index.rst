@@ -17,13 +17,10 @@ The purpose of this document is to guide resources to connect to the EJP RD Virt
 Funding
 --------
 
-H2020-SC1-2018-Single-Stage-RTD
-
-SC1-BHC-04-2018
-
-Rare Disease European Joint Programme Cofund
-
-Grant agreement number 825575
+#. H2020-SC1-2018-Single-Stage-RTD
+#. SC1-BHC-04-2018
+#. Rare Disease European Joint Programme Cofund
+#. Grant agreement number 825575
 
 
 
@@ -33,8 +30,3 @@ Grant agreement number 825575
 
       vp/index
       portal/index
-..    .. level_1
-..    .. level_2
-..    .. level_3
-..    .. references
-..    .. contact_team
