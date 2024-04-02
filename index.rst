@@ -19,17 +19,17 @@ Funding
 ..  figure:: _images/europe.png
     :alt:  Europe
     :width: 30%
-    :align: center
+    .. :align: center
 
-    * H2020-SC1-2018-Single-Stage-RTD
-    * SC1-BHC-04-2018
-    * Rare Disease European Joint Programme Cofund
-    * Grant agreement number 825575
+* H2020-SC1-2018-Single-Stage-RTD
+* SC1-BHC-04-2018
+* Rare Disease European Joint Programme Cofund
+* Grant agreement number 825575
 
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents
 
    vp/index
