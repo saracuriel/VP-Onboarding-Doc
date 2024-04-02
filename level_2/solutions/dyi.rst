@@ -1,4 +1,4 @@
-EJP RD Beacon v2 DIY approach for Level 2 onboarding
+DYI: EJP RD Beacon v2 DIY approach for Level 2 onboarding
 ------------
 
 Two elements are needed to implement (or "light") an EJP RD Beacon v2: 
@@ -6,7 +6,7 @@ Two elements are needed to implement (or "light") an EJP RD Beacon v2:
 * An EJP RD **Beacon v2 API** that provides a standardized way to send queries and receive responses (containing yes/no, counts or data).
 
 Relevant Links to creating & customising your DIY solution
-------------
+~~~~~~~~~~~~
 
 * The EJP RD Beacon v2 API Specification to be followed, to be compliant with the VP Platform ecosystem: `lind <https://github.com/ejp-rd-vp/vp-api-specs>`_
 * About GA4GH Beacon: `lind <https://docs.genomebeacons.org/>`_.
