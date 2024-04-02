@@ -19,4 +19,5 @@ Please note that the PURL links may be updated in future releases of the onboard
 
    metadata
    classes
+   properties
    onboard
