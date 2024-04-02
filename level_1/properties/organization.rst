@@ -1,6 +1,8 @@
 
-Organization (Mandatory Properties)
+Organization 
 ~~~~~~~~~~~~
+
+** Mandtory Properties**
 
 .. list-table:: Level 1 - Mandatory Properties for Organization
 	:widths: 20 60 20
@@ -20,8 +22,8 @@ Organization (Mandatory Properties)
 	  - | dcterms:description
 
 
-Organization (Optional Properties)
-~~~~~~~~~~~~
+**Optional Properties**
+
 
 .. list-table:: Level 1 - Optional Properties for Organization
 	:widths: 20 60 20

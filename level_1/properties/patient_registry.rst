@@ -1,6 +1,8 @@
 
-Patient Registries (Mandatory Properties)
-~~~~~~~~~~~~
+Patient Registries 
+
+**Mandatory Properties**
+
 
 .. list-table:: Level 1 - Mandatory Properties for Patient Registries
 	:widths: 20 60 20
@@ -38,8 +40,7 @@ Patient Registries (Mandatory Properties)
 	  - | dcterms:language  
 
 
-Patient Registries (Recommended Properties)
-~~~~~~~~~~~~
+**Recommended Properties**
 
 .. list-table:: Level 1 - Recommended Properties for Patient Registries
 	:widths: 20 60 20
@@ -56,8 +57,7 @@ Patient Registries (Recommended Properties)
 	  - | dcat:landingPage
 
 
-Patient Registries (Optional Properties)
-~~~~~~~~~~~~
+**Optional Properties**
 
 .. list-table:: Level 1 - Optional Properties for Patient Registries
 	:widths: 20 60 20
