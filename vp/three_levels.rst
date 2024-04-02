@@ -48,8 +48,8 @@ Three Levels of Connectivity
 	  - Find resources based upon how many patients have Autosomal recessive polycystic kidney disease [ORPHA:731] and had symptom onset before 8 years old?
 
 
-`Level 3 - Data analysis <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/index.html>`_
-**Prerequisite: Level 1 connectivity**
+| `Level 3 - Data analysis <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/index.html>`_
+| **Prerequisite: Level 1 connectivity**
 
 .. list-table::
 	:widths: 20 20 20 20 20

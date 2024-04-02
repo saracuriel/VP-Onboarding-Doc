@@ -5,4 +5,53 @@ The record level allows querying based on safe versions of individual records wi
 
 The filters shown in the table below can be applied to a query to only show certain results. 
 
-[insert table]
+.. list-table:: **Filters supported by the API endpoint:** `/individuals (click for the full specification) <https://github.com/ejp-rd-vp/vp-api-specs#-individuals-endpoint>`_
+	:widths: 20 20 20 20 20
+	:header-rows: 1
+
+	* - CDE Concept
+	  - CDE Term
+	  - Usage notes
+	  - EJP RD Beacon v2 Filter Type
+	  - Expected Response
+	* - **Sex**
+	  - obo:NCIT_C28421 (Sex)
+	  - The biological sex of an individual patient
+	  - Alphanumerical
+	  - Counts
+	* - **Disease or Disorder**
+	  - obo:NCIT_C2991(Disease or Disorder)
+	  - All rare diseases that have been diagnosed within an individual	
+	  - Ontology
+	  - Counts
+	* - Phenotype	
+	  - sio:phenotype
+	  - HPO terms of all phenotypes observed within an individual
+	  - Ontology
+	  - Result set or counts
+	* - **Causative Genes**
+	  - edam:data_2295 (Gene ID)
+	  - All genes which have been deemed as causative of one or more of the diagnosed rare diseases in an individual
+	  - Alphanumerical
+	  - Counts
+	* - Age this year
+	  - obo:NCIT_C83164 (Birth Year)
+	  - Age at the end of the current year
+	  - Numerical
+	  - Counts
+	* - Symptom Onset
+	  - obo:NCIT_C124353 (Symptom Onset)
+	  - Age at the manifestation of a rare disease
+	  - Numerical
+	  - Counts
+	* - **Age at diagnosis**
+	  - obo:NCIT_C156420 (Age at Diagnosis)
+	  - Age at the diagnosis of a rare disease
+	  - Numerical
+	  - Counts
+
+Please note:
+
+* Resources choose which filters (i.e., CDEs) they want to implement for their /individuals endpoint.
+
+

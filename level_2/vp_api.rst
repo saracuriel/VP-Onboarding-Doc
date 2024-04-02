@@ -13,7 +13,52 @@ Transitioning to Level 2 involves seamlessly integrating resources with the EJP 
 Overview of the Level 2 onboarding solutions
 ------------
 
-[table]
+.. list-table::
+   :widths: 10 20 25 10 10 10 10 
+   :header-rows: 1
+
+   * - Solution
+     - Description
+     - Capabilities
+     - Licensing
+     - Support Offered
+     - Supports Level 1?
+     - Supports Level 2?
+   * - **RD-Nexus**
+     - RD-Nexus is a convenient data discovery tool that adapts to many use cases and diverse datatypes. It utilises graph-based technologies to leverage semantic similarity and ontology mapping standards and is compatible with any input data format. Compliant with all major RD standards.   
+     - API support for Any/All EJP RD Beacon v2 queries; Storage and Query of Metadata; Storage and Query of safe (or rich) demographic, sample, phenotypic and other data (omics, tabular, images); Ingest/Use any data format; Real-time query execution; Powerful similarity searching (phenotypes and disease); Enforce ontologies or controlled vocabularies; Dockerised & Non-Dockerised Install options; Inbuilt modular query & admin interfaces; Supports federated AuthN/AuthZ (inc LS AAI); Secure operation across firewall (via polling); Create/Manage secure custom networks.  
+     - RD-Nexus is free to use under the MIT License.
+     - Yes: Installation and hosting support. Demo and customisation support. Guidance on setting up private networks.   
+     - Yes
+     - Yes
+   * - **MOLGENIS**
+     - MOLGENIS (MOLecular GENetics Information Systems), is an open-source platform designed for managing and analyzing complex biomedical and genetic data. It supports the creation of RD registries, including discovery functions. 
+     - Supports EJP RD Beacon v2 queries; Structured Data Management; FAIR data sharing; secure access; Scripting & visualisation; Harmonization and integration; Task automation; High-performance computing.
+     - MOLGENIS is free to use under LGPLv3 License.
+     - Yes. Helpdesk available for any developer or user questions. Additional services offered for hosted installations and backups at a low fee.  
+     - Yes
+     - Yes
+   * - **Beacon-in-a-Box**
+     - Specialised version of the GA4GH Beacon adapted to enable easy setup of EJP-RD Level-2 services.
+     - Beacon deployment for /catalogs & /individuals endpoint; Docker & Docker-less deployment.
+     - Beacon is free to use under the Apache License 2.0.
+     - Yes
+     - No
+     - No
+   * - **FAIR-in-a-Box**
+     - FAIR-in-a-Box  software enables the setup of a local Fair Data Point that holds your data in an accessible triple-store, with EJP RD Beacon v2 services. 
+     - Supports EJP RD Beacon v2 queries for both the /catalogs & /individuals endpoints; Dockerized installation. 
+     - FAIR-in-a-box is free to use; individual components have distinct licenses selected by their (third-party) authors.
+     - Yes
+     - Yes
+     - Yes
+   * - **EJP RD Beacon v2 DIY**
+     - A custom solution can be created by any developer comfortable with Python/Flask or similar backend technologies (support and guidance on this is available).
+     - Licensing will depend on the technologies chosen for your custom solution. 
+     -  
+     - No 
+     - 
+
 
 
 .. toctree::
