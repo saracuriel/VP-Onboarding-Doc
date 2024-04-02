@@ -1,3 +1,4 @@
-#ejp-rd-metadata-schema-classes table tbody p {
+#ejp-rd-metadata-schema-classes table tbody p, #ejp-rd-metadata-schema-classes table tbody .line {
 	text-wrap: auto !important;
 }
+
