@@ -1,5 +1,5 @@
-
-Patient Registries 
+Patient Registries
+~~~~~~~~~~~~
 
 **Mandatory Properties**
 
