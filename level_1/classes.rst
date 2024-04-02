@@ -17,25 +17,25 @@ Mandatory Classes
 	  - URI
 	* - `Organisation <>`_
 	  - To add resources to the EJP RD Virtual Platform the organisations that provide the resources need to be registered first. For each organisation, the biobanks, patient registries, guidelines, datasets (which may have associated data services) or data services (with no specific dataset), provided by the organisation, need to be added.
-	  - | foaf:Organisation
+	  - foaf:Organisation
 	* - `Patient Registries <>`_ **(Resource Type)**
 	  - Defines all the patient registries for this EJP RD resource in the case where datasets are about content of a rare disease resource such as a patient registry. This class can be used under Catalogue.
-	  - | ejprd:PatientRegistry
+	  - ejprd:PatientRegistry
 	* - `Biobanks <>`_ **(Resource Type)**
 	  - Defines all the biobanks for this EJP RD resource in the case where datasets are about the content of a rare disease resource such as a biobank. This class can be used under Catalogue.
-	  - | ejprd:Biobank
+	  - ejprd:Biobank
 	* - `Dataset <>`_ **(Resource Type)**
 	  - Required only when your organisation provides access to 1 or more datasets. This describes details about your dataset(s). However, a single dataset can have different ways in which they are made available to potential users. How a dataset can be accessed is defined in the Distribution.
-	  - | dcat:Dataset
+	  - dcat:Dataset
 	* - `Data Service <>`_ **(Resource Type)**
 	  - There are two types of data services in the EJP RD VP – those that query safe data/metadata via an interface (e.g. EJP RD Beacon v2 API), and those that do not serve data, but rather provide analytical or statistical services on potentially sensitive data (e.g. a graph plotting service).  The former is associated with the Dataset record from which it serves, while the latter is associated with a Catalog.
-	  - | dcat:DataService
+	  - dcat:DataService
 	* - **Guideline (Resource type)**
 	  - This concept describes guidelines that a resource may have about a particular context. An example would be “Biomarker Development Manual”.
-	  - | ejprd:Guideline
+	  - ejprd:Guideline
 	* - "*Resource*"
 	  - "*Resource is a generic concept from the DCAT2 vocabulary. In our metadata model, we extended it with Rare Disease specific concepts like Biobank and Patient registry, which means that you rarely use this class directly, but indirectly through its extensions. We recommend that you avoid using dcat:Resource directly for your document unless the type that you are looking for is not available in this table (not a Biobank, Patient Registry, Dataset, Data Service, or Guideline). At least one of the resource types described in this table is Mandatory.*"
-	  - | dcat:Resource (use dcat:Dataset, dcat:DataService, ejprd:PatientRegistry, ejprd:Guideline, or ejprd:Biobank according to your resource type)
+	  - dcat:Resource (use dcat:Dataset, dcat:DataService, ejprd:PatientRegistry, ejprd:Guideline, or ejprd:Biobank according to your resource type)
 
 
 Recommended Classes
@@ -50,7 +50,7 @@ Recommended Classes
 	  - URI
 	* - `Catalogue <>`_
 	  - If your organisation wants to bundle numerous datasets, data services, biobanks, patient registries, or guidelines together under a single title, you need to fill in this sheet.
-	  - | dcat:Catalog
+	  - dcat:Catalog
 
 
 Optional Classes
@@ -65,4 +65,4 @@ Optional Classes
 	  - URI
 	* - `Distribution <>`_
 	  - A single dataset can be made available in different ways. I.e., it can be downloaded, or it can be accessed online.
-	  - | dcat:Distribution
+	  - dcat:Distribution

@@ -6,12 +6,13 @@ The Virtual Platform Portal (VP Portal) is a component developed within the EJP 
 The VP Portal consists mainly of three pages: 
 
 #. **The landing page** contains information on the content and results of queries from the VP Network. A screenshot of it is shown in Figure 2.
-..  figure:: _images/f2.png
-    :alt:  Picture of VP Portal landing page.
-    :width: 70%
-    :align: center
+    ..  figure:: _images/f2.png
+        :alt:  Picture of VP Portal landing page.
+        :width: 70%
+        :align: center
 
-    Figure 2 - VP Portal landing page.
+        Figure 2 - VP Portal landing page.
+        
 #. **The VP Network Resources** [`link <https://vp.ejprarediseases.org/discovery/sources>`_] component which lists all the connected resources where key meta information about the resources themselves, such as name, logo and short description will be displayed. Figure 3 shows a screen shot of this component. At each resource line the user can find the homepage of the respective resources and further information such as a short description and resource type. EJP RD specific tags are displayed to indicate if the resource can be queried at Level 2 (VPContentDiscovery). These icons are described in detail when hovering the mouse over them. All resources listed on this page are onboarded at least at Level 1.
 
 ..  figure:: _images/f3.png
