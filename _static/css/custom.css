@@ -1,4 +1,10 @@
 table thead p, table tbody p, table tbody .line {
-	text-wrap: auto !important;
+	text-wrap: pretty;
 }
 
+
+@-moz-document url-prefix() {
+    table thead p, table tbody p, table tbody .line {
+		text-wrap: auto !important;
+	}
+}
