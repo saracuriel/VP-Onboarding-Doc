@@ -1,4 +1,4 @@
-Three Levels of connectivity
+Three Levels of Connectivity
 ------------
 
 `Level 1: Resource Discovery <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/index.html>`_
@@ -14,13 +14,13 @@ Three Levels of connectivity
 	  - Example Queries
 	* - **At this level, the provider commits to openly publish online some standardised metadata about the offered resource, and hence make this available to the VP via the VP Index.**
 	  - Resource discoverability via open metadata
-	  - | FAIR Data Point specification
-	    | EJP RD metadata schema
+	  - FAIR Data Point specification, EJP RD metadata schema
 	  - Open Access
 	  - What are the URLs of Catalogs that allow deeper queries? What are the available biobanks? What are the available patient registries?
 
 
 `Level 2 - Content-based discovery <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/index.html>`_
+
 **Prerequisite: Level 1 connectivity**
 
 .. list-table::
@@ -50,6 +50,7 @@ Three Levels of connectivity
 
 
 `Level 3 - Data analysis <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/index.html>`_
+
 **Prerequisite: Level 1 connectivity**
 
 .. list-table::
@@ -64,11 +65,11 @@ Three Levels of connectivity
 	* - **At this level, the provider commits to support interrogation and analysis on its resource's rich content.**
 	  - Data reuse and analysis
 	  - * SPARQL
-		* FAIR Data Train
-		* Data available according to the Clinical And Registry Entries Semantic Model (CARE-SM)
+	* FAIR Data Train
+	* Data available according to the Clinical And Registry Entries Semantic Model (CARE-SM)
 	  - * Open access
-		* Authentication
-		* Authorization
+	* Authentication
+	* Authorization
 	  - Training a prediction model on distributed data.
 
 
