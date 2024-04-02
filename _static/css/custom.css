@@ -1,7 +1,4 @@
-#ejp-rd-metadata-schema-classes table tbody p, 
-#ejp-rd-metadata-schema-classes table tbody .line,
-#organization-mandatory-properties table tbody p,
-#organization-mandatory-properties table tbody .line {
+#ejp-rd-metadata-schema-classes table tbody p, #ejp-rd-metadata-schema-classes table tbody .line, #organization-mandatory-properties table tbody p, #organization-mandatory-properties table tbody .line {
 	text-wrap: auto !important;
 }
 
