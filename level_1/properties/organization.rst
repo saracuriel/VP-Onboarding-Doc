@@ -4,7 +4,7 @@ Organization
 
 **Mandatory Properties**
 
-.. list-table:: Level 1 - Mandatory Properties for Organization
+.. list-table::
 	:widths: 20 60 20
 	:header-rows: 1
 
@@ -26,8 +26,7 @@ Organization
 
 **Optional Properties**
 
-
-.. list-table:: Level 1 - Optional Properties for Organization
+.. list-table::
 	:widths: 20 60 20
 	:header-rows: 1
 

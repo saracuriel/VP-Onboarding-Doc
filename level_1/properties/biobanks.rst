@@ -1,4 +1,4 @@
-Patient Registries
+Biobanks
 ~~~~~~~~~~~~
 
 **Mandatory Properties**
@@ -66,21 +66,21 @@ Patient Registries
 	* - Property
 	  - Definition and usage note
 	  - URI
+	* - **Distribution**
+	  - Use this property to point to the distribution of this dataset when a distribution is available. Range is dcat:Distribution.
+	  - | dcat:distribution
 	* - **VP Connection**
 	  - This property is attached to every portion of your Metadata record that you wish the VP to explore (e.g. Dataset X, Data Service Y, but NOT Dataset Z). **If you do not add this tag to at least the description of your resource, you will not be onboarded.** The range is http://purl.org/ejp-rd/vocabulary/VPDiscoverable
 	  - | ejprd:vpConnection
+	* - **ODRL Policy**
+	  - An ODRL conformant policy document (`https://www.w3.org/TR/odrl-model/ <https://www.w3.org/TR/odrl-model/>`_) expressing the rights and/or responsibilities associated with access to and/or use of the resource. This should point to a URL where this conformant document has been published.
+	  - | odrl:hasPolicy
 	* - **Keyword**
 	  - Keywords applicable to this patient registry
 	  - | dcat:keyword
 	* - **Logo**
 	  - A link to the graphic representation of this resource.
 	  - | foaf:logo
-	* - **ODRL Policy**
-	  - An ODRL conformant policy document (`https://www.w3.org/TR/odrl-model/ <https://www.w3.org/TR/odrl-model/>`_) expressing the rights and/or responsibilities associated with access to and/or use of the resource. This should point to a URL where this conformant document has been published.
-	  - | odrl:hasPolicy
-	* - **Distribution**
-	  - Pointer to an associated Distribution of this dataset, if available. Range dcat:Distribution.
-	  - | dcat:distribution
 	* - **identifier**
 	  - Identifier of this resource. It can be a link.  Range is an xsd:string
 	  - | dcterms:identifier
