@@ -7,5 +7,3 @@ EJP RD Metadata Schema Properties
 
    properties/organization
    properties/patient_registry
-   properties
-   onboard
