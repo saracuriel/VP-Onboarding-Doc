@@ -1,4 +1,4 @@
-table tbody p, table tbody .line {
+table thead p, table tbody p, table tbody .line {
 	text-wrap: auto !important;
 }
 
