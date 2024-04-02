@@ -1,4 +1,10 @@
-#ejp-rd-metadata-schema-classes table tbody p, #ejp-rd-metadata-schema-classes table tbody .line, #organization-mandatory-properties table tbody p, #organization-mandatory-properties table tbody .line {
+/*#ejp-rd-metadata-schema-classes table tbody p,
+#ejp-rd-metadata-schema-classes table tbody .line,
+#organization table tbody p,
+#organization table tbody .line,
+#patient table tbody p,
+#organization table tbody .line */
+table tbody p, table tbody .line {
 	text-wrap: auto !important;
 }
 

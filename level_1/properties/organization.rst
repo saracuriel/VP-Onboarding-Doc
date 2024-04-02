@@ -2,7 +2,7 @@
 Organization 
 ~~~~~~~~~~~~
 
-** Mandtory Properties**
+**Mandatory Properties**
 
 .. list-table:: Level 1 - Mandatory Properties for Organization
 	:widths: 20 60 20
@@ -20,6 +20,8 @@ Organization
 	* - **Description**
 	  - A description of the organisation. Example: hPSCreg® offers the research community, legislators, regulators, and the public at large an in-depth overview on the status of human pluripotent stem cell (hPSC) research.
 	  - | dcterms:description
+
+
 
 
 **Optional Properties**
