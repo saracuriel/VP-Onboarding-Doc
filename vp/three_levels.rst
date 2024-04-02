@@ -35,7 +35,7 @@ Three Levels of Connectivity
 	  - Resource discoverability via controlled querying of catalogue/resource summary info and/or safe resource record data
 	  - EJP RD Beacon v2 API implementation
 	  - Open or authenticated user access, as per the preference of each resource
-	  - teste
+	  - ‎ ‎ 
 	* - **Level 2 – Querying at the catalogue/resource level**
 	  - Involves answering queries based on the summary level metadata of RD resources
 	  - EJP RD queryable metadata
