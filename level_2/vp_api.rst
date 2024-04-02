@@ -10,10 +10,10 @@ Transitioning to Level 2 involves seamlessly integrating resources with the EJP 
     Figure 7 – Level 2 onboarding process overview
 
 
-Overview of the Level 2 onboarding solutions
+Level 2 onboarding solutions
 ------------
 
-.. list-table::
+.. list-table:: Overview of the Level 2 onboarding solutions
    :widths: 10 20 25 10 10 10 10 
    :header-rows: 1
 
@@ -57,6 +57,7 @@ Overview of the Level 2 onboarding solutions
      - Licensing will depend on the technologies chosen for your custom solution. 
      -  
      - No 
+     - 
      - 
 
 
