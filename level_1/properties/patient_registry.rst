@@ -4,7 +4,7 @@ Patient Registries
 **Mandatory Properties**
 
 
-.. list-table:: Level 1 - Mandatory Properties for Patient Registries
+.. list-table:: 
 	:widths: 20 60 20
 	:header-rows: 1
 
@@ -93,7 +93,7 @@ Patient Registries
 	* - **version**
 	  - The version indicator (name or identifier) of a resource. The range is a rdfs:literal
 	  - | dcat:version
-	 * - **Conforms to**
+	* - **Conforms to**
 	  - If applicable, it should point to the URL, an established standard to which the data within the described resource conforms (e.g. MAGE-ML for Microarray data)
 	  - | dcterms:conformsTo
 
