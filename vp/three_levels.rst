@@ -4,7 +4,7 @@ Three Levels of Connectivity
 `Level 1: Resource Discovery <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/index.html>`_
 
 .. list-table::
-	:widths: 25 19 19 18 19
+	:widths: 20 20 20 20 20
 	:header-rows: 1
 
 	* - Description
@@ -19,9 +19,8 @@ Three Levels of Connectivity
 	  - What are the URLs of Catalogs that allow deeper queries? What are the available biobanks? What are the available patient registries?
 
 
-`Level 2 - Content-based discovery <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/index.html>`_
-
-**Prerequisite: Level 1 connectivity**
+| `Level 2 - Content-based discovery <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/index.html>`_
+| **Prerequisite: Level 1 connectivity**
 
 .. list-table::
 	:widths: 20 20 20 20 20
@@ -50,11 +49,10 @@ Three Levels of Connectivity
 
 
 `Level 3 - Data analysis <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/index.html>`_
-
 **Prerequisite: Level 1 connectivity**
 
 .. list-table::
-	:widths: 25 19 19 18 19
+	:widths: 20 20 20 20 20
 	:header-rows: 1
 
 	* - Description
@@ -64,12 +62,8 @@ Three Levels of Connectivity
 	  - Example Queries
 	* - **At this level, the provider commits to support interrogation and analysis on its resource's rich content.**
 	  - Data reuse and analysis
-	  - * SPARQL
-	* FAIR Data Train
-	* Data available according to the Clinical And Registry Entries Semantic Model (CARE-SM)
-	  - * Open access
-	* Authentication
-	* Authorization
+	  - SPARQL, FAIR Data Train, Data available according to the Clinical And Registry Entries Semantic Model (CARE-SM)
+	  - Open access, Authentication, Authorization
 	  - Training a prediction model on distributed data.
 
 
