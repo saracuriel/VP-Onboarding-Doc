@@ -24,7 +24,7 @@ Three Levels of Connectivity
 **Prerequisite: Level 1 connectivity**
 
 .. list-table::
-	:widths: 25 19 19 18 19
+	:widths: 20 20 20 20 20
 	:header-rows: 1
 
 	* - Description
