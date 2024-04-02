@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 project = 'EJP RD Onboarding Document'
 copyright = '2024, EJP RD'
-author = 'César Bernabé'
+author = 'EJP RD'
 
 # The short X.Y version
 version = ''
@@ -181,40 +181,3 @@ epub_copyright = copyright
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-
-# # Configuration file for the Sphinx documentation builder.
-
-# # -- Project information
-
-# project = 'EJP RD Onboarding Document'
-# copyright = '2023, EJP RD'
-# author = 'EJP RD'
-
-# release = '0.1'
-# version = '0.2.0'
-
-# # -- General configuration
-
-# extensions = [
-#     'sphinx.ext.duration',
-#     'sphinx.ext.doctest',
-#     'sphinx.ext.autodoc',
-#     'sphinx.ext.autosummary',
-#     'sphinx.ext.intersphinx',
-# ]
-
-# intersphinx_mapping = {
-#     'python': ('https://docs.python.org/3/', None),
-#     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-# }
-# intersphinx_disabled_domains = ['std']
-
-# templates_path = ['_templates']
-
-# # -- Options for HTML output
-
-# html_theme = 'sphinx_rtd_theme'
-
-# # -- Options for EPUB output
-# epub_show_urls = 'footnote'

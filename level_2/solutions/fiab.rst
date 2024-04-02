@@ -1,14 +1,13 @@
-EJP RD Beacon v2 DIY approach for Level 2 onboarding
+FAIR-in-a-Box (FiaB) for Level 2 onboarding
 ------------
 
-Two elements are needed to implement (or "light") an EJP RD Beacon v2: 
-* An internal **database** (where the resource data is stored).
-* An EJP RD **Beacon v2 API** that provides a standardized way to send queries and receive responses (containing yes/no, counts or data).
+**It is important to note that FiaB is intended to be used to serve only one dataset, and thus, the Level 2 interfaces that are installed by FiaB are limited to achieve this task. If your resource contains multiple distinct datasets, that need to be queried independently, you cannot use FiaB for Level 2.**
 
-Relevant Links to creating & customising your DIY solution
-------------
+To achieve Level 2 functionality, two distinct processes are required, each one focuses on enhance content discoverability for different entities. The following describes how the FiaB can be used to achieve this Level 2 connection for the two endpoints, catalogue and individual.
 
-* The EJP RD Beacon v2 API Specification to be followed, to be compliant with the VP Platform ecosystem: `lind <https://github.com/ejp-rd-vp/vp-api-specs>`_
-* About GA4GH Beacon: `lind <https://docs.genomebeacons.org/>`_.
-* CRG developed B2RI set of tools for when you want to "beaconize" your data to be part of the ecosystem, but you're unsure where to start, and/or don't want to invest a lot of resources because you are still unsure if the whole thing will pay off: `lind <https://b2ri-documentation.readthedocs.io/en/latest/beacon-v2-reference-implementation/>`_. This solution requires the use of Docker, as opposed to the BiaB approach (non-docker) described above.
+* **Catalogue content-based discovery:** 
+FiaB has implemented the EJP RD Beacon v2 API with the capability to retrieve data based on a triple store using SPARQL. The installation of FiaB is done as described in the Level 1 section.  The Level 2 (EJP RD Beacon v2) functionality is not activated by default, to ensure that you don’t accidentally expose data you did not intend to make available.  The EJP RD Beacon v2 functionality can be activated by adding the GraphDB username/password as environment variables, that are then picked-up by the EJP RD Beacon v2 docker image that is deployed with FiaB (see FiaB installation instructions for more detail).  To query the Beacon interface, send EJP RD Beacon v2 filter parameters (defined in the specification page [`link <https://github.com/ejp-rd-vp/vp-api-specs>`_]) to the endpoint defined in the EJP RD Beacon v2 docker image.
+
+* **Record-level content-based discovery:** 
+To facilitate content discoverability within your record-level data, the FiaB database must first be populated with data following the CARE-SM model. FiaB implements a workflow based on CSV templates that can transform your data, from a CSV format file into an RDF-based format that is then stored in a protected GraphDB (triplestore to host RDF data) instance, that can be configured to be available for EJP RD Beacon v2 queries. These queries exclusively retrieve non-sensitive information, providing anonymous and secure counts for each query performed. Documentation regarding the CARE-SM implementation workflow can be found in [`link <https://github.com/ejp-rd-vp/FiaB/tree/main/CDE Version2 Models FiaB>`_].
 
