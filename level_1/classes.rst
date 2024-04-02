@@ -15,22 +15,22 @@ Mandatory Classes
 	* - Class
 	  - Definition and usage note
 	  - URI
-	* - `Organisation <>`_
+	* - `Organisation <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/organization.html>`_
 	  - To add resources to the EJP RD Virtual Platform the organisations that provide the resources need to be registered first. For each organisation, the biobanks, patient registries, guidelines, datasets (which may have associated data services) or data services (with no specific dataset), provided by the organisation, need to be added.
 	  - foaf:Organisation
-	* - `Patient Registries <>`_ **(Resource Type)**
+	* - `Patient Registries <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/patient_registry.html>`_ **(Resource Type)**
 	  - Defines all the patient registries for this EJP RD resource in the case where datasets are about content of a rare disease resource such as a patient registry. This class can be used under Catalogue.
 	  - ejprd:PatientRegistry
-	* - `Biobanks <>`_ **(Resource Type)**
+	* - `Biobanks <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/biobanks.html>`_ **(Resource Type)**
 	  - Defines all the biobanks for this EJP RD resource in the case where datasets are about the content of a rare disease resource such as a biobank. This class can be used under Catalogue.
 	  - ejprd:Biobank
-	* - `Dataset <>`_ **(Resource Type)**
+	* - `Dataset <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/datasets.html>`_ **(Resource Type)**
 	  - Required only when your organisation provides access to 1 or more datasets. This describes details about your dataset(s). However, a single dataset can have different ways in which they are made available to potential users. How a dataset can be accessed is defined in the Distribution.
 	  - dcat:Dataset
-	* - `Data Service <>`_ **(Resource Type)**
+	* - `Data Service <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/data_service.html>`_ **(Resource Type)**
 	  - There are two types of data services in the EJP RD VP – those that query safe data/metadata via an interface (e.g. EJP RD Beacon v2 API), and those that do not serve data, but rather provide analytical or statistical services on potentially sensitive data (e.g. a graph plotting service).  The former is associated with the Dataset record from which it serves, while the latter is associated with a Catalog.
 	  - dcat:DataService
-	* - **Guideline (Resource type)**
+	* - `Guideline <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/guideline.html>`_ **(Resource type)**
 	  - This concept describes guidelines that a resource may have about a particular context. An example would be “Biomarker Development Manual”.
 	  - ejprd:Guideline
 	* - "*Resource*"
@@ -48,7 +48,7 @@ Recommended Classes
 	* - Class
 	  - Definition and usage note
 	  - URI
-	* - `Catalogue <>`_
+	* - `Catalogue <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/catalog.html>`_
 	  - If your organisation wants to bundle numerous datasets, data services, biobanks, patient registries, or guidelines together under a single title, you need to fill in this sheet.
 	  - dcat:Catalog
 
@@ -63,6 +63,6 @@ Optional Classes
 	* - Class
 	  - Definition and usage note
 	  - URI
-	* - `Distribution <>`_
+	* - `Distribution <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/distribution.html>`_
 	  - A single dataset can be made available in different ways. I.e., it can be downloaded, or it can be accessed online.
 	  - dcat:Distribution
