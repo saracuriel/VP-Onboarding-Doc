@@ -36,7 +36,7 @@ Biobanks
 	  - Gives an indication of the part of the population covered by this patient registry. This field must have 1 of the following values: "National", "International", "Regional" or "European". String
 	  - | ejprd:populationCoverage
 	* - **Language**
-	  - An ISO 639-1 two-letter code for the languages this patient registry is provided in. Example: en indicates that this patient registry is available in English. The range is an xsd:string. The ISO language codes can be found at: `https://id.loc.gov/vocabulary/iso639-1.html <https://id.loc.gov/vocabulary/iso639-1.html>`_ and an example: `http://id.loc.gov/vocabulary/iso639-1/en <http://id.loc.gov/vocabulary/iso639-1/en>`_
+	  - An ISO 639-1 two-letter code for the languages this patient registry is provided in. Example: en indicates that this patient registry is available in English. The range is an xsd:string. The ISO language codes can be found at: `ISO639-1 <https://id.loc.gov/vocabulary/iso639-1.html>`_ and `an example <http://id.loc.gov/vocabulary/iso639-1/en>`_.
 	  - | dcterms:language  
 
 
@@ -50,7 +50,7 @@ Biobanks
 	  - Definition and usage note
 	  - URI
 	* - **Access Rights**
-	  - Information about who can access the resource or an indication of its security status. This should point to a URL where this information can be found. We strongly recommend that access rights are described as `DUC CCE profile <https://duc.le.ac.uk/>`_.
+	  - Information about who can access the resource or an indication of its security status. This should point to a URL where this information can be found. We strongly recommend that access rights are described as `DUC CCE <https://duc.le.ac.uk/>`_ profile.
 	  - | dcterms:accessRights
 	* - **Landing Page**
 	  - This a URL to a web page with more information regarding the Patient Registry. Any URL must start with http:// or https://   

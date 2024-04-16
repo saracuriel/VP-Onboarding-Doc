@@ -36,7 +36,7 @@ Patient Registries
 	  - Gives an indication of the part of the population covered by this patient registry. This field must have 1 of the following values: "National", "International", "Regional" or "European". String
 	  - | ejprd:populationCoverage
 	* - **Language**
-	  - An ISO 639-1 two-letter code for the languages this patient registry is provided in. Example: en indicates that this patient registry is available in English. The range is an xsd:string. The ISO language codes can be found at: `ISO639-1 <https://id.loc.gov/vocabulary/iso639-1.html>`_ and `an example <http://id.loc.gov/vocabulary/iso639-1/en>`_
+	  - An ISO 639-1 two-letter code for the languages this patient registry is provided in. Example: en indicates that this patient registry is available in English. The range is an xsd:string. The ISO language codes can be found at: `ISO639-1 <https://id.loc.gov/vocabulary/iso639-1.html>`_ and `an example <http://id.loc.gov/vocabulary/iso639-1/en>`_.
 	  - | dcterms:language  
 
 

@@ -14,7 +14,7 @@ A distribution is a representation of your data. You can have as many distributi
 	  - Definition and usage note
 	  - URI
 	* - **License**
-	  - This should contain a URL that provides details regarding the license that is applicable to this resource. If no suitable license can be provided, then the default license should be used: https://w3id.org/ejp-rd/resources/licenses/v1.0/. Other licenses are:   https://creativecommons.org/licenses/, e.g. http://creativecommons.org/licenses/by-nc-nd/4.0
+	  - This should contain a URL that provides details regarding the license that is applicable to this resource. If no suitable license can be provided, then the default license should be used: `https://w3id.org/ejp-rd/resources/licenses/v1.0/ <https://w3id.org/ejp-rd/resources/licenses/v1.0/>`_. Other licenses are: `Creative Commons <https://creativecommons.org/licenses/>`_, e.g. `CC BY-NC-ND 4.0 Deed <http://creativecommons.org/licenses/by-nc-nd/4.0>`_
 	  - | dcterms:license
 	* - **Title**
 	  - The name of the patient registry. This is a required field and needs to be unique.
@@ -40,7 +40,7 @@ A distribution is a representation of your data. You can have as many distributi
 	  - Definition and usage note
 	  - URI
 	* - **Access Rights**
-	  - Information about who can access the resource or an indication of its security status. This should point to a URL where this information can be found. We strongly recommend that access rights are described as DUC CCE profile.
+	  - Information about who can access the resource or an indication of its security status. This should point to a URL where this information can be found. We strongly recommend that access rights are described as `DUC CCE <https://duc.le.ac.uk/>`_ profile.
 	  - | dcterms:accessRights
 
 
