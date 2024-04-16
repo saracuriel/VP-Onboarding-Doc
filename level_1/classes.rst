@@ -15,7 +15,7 @@ Mandatory Classes
 	* - Class
 	  - Definition and usage note
 	  - URI
-	* - `Organisation <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/organization.html>`_
+	* - `Organisation <properties/organization.html>`_
 	  - To add resources to the EJP RD Virtual Platform the organisations that provide the resources need to be registered first. For each organisation, the biobanks, patient registries, guidelines, datasets (which may have associated data services) or data services (with no specific dataset), provided by the organisation, need to be added.
 	  - foaf:Organisation
 	* - `Patient Registries <https://vp-onboarding-doc.readthedocs.io/en/latest/level_1/properties/patient_registry.html>`_ **(Resource Type)**
