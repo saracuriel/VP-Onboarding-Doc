@@ -17,10 +17,10 @@ A distribution is a representation of your data. You can have as many distributi
 	  - This should contain a URL that provides details regarding the license that is applicable to this resource. If no suitable license can be provided, then the default license should be used: `https://w3id.org/ejp-rd/resources/licenses/v1.0/ <https://w3id.org/ejp-rd/resources/licenses/v1.0/>`_. Other licenses are: `Creative Commons <https://creativecommons.org/licenses/>`_, e.g. `CC BY-NC-ND 4.0 Deed <http://creativecommons.org/licenses/by-nc-nd/4.0>`_
 	  - | dcterms:license
 	* - **Title**
-	  - The name of the patient registry. This is a required field and needs to be unique.
+	  - The name of the distribution. This is a required field and needs to be unique.
 	  - | dcterms:title
 	* - **Description**
-	  - A description of the patient registry.
+	  - A description of the distribution.
 	  - | dcterms:description
 	* - **Publisher**
 	  - Pointer to the Organisation that published the resource. The range is foaf:Organisation

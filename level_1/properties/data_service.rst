@@ -20,10 +20,10 @@ Data services are resources that provide access to data or analytical tools via 
 	  - In the context of a Data Service, if the service is a Beacon, the range is either http://purl.org/ejp-rd/vocabulary/VPBeacon2_individuals or http://purl.org/ejp-rd/vocabulary/VPBeacon2_catalog. If the service is anything besides a Beacon, use one of the children of edam_operation.
 	  - | dcterms:type
 	* - **Title**
-	  - The name of the patient registry. This is a required field and needs to be unique.
+	  - The name of the data service. This is a required field and needs to be unique.
 	  - | dcterms:title
 	* - **Description**
-	  - A description of the patient registry.
+	  - A description of the data service.
 	  - | dcterms:description
 	* - **Publisher**
 	  - Pointer to the Organisation that published the resource. The range is foaf:Organisation
@@ -32,13 +32,13 @@ Data services are resources that provide access to data or analytical tools via 
 	  - Set to "true" if the resource onboarded to the Virtual Platform contains personal data, personal data meaning data related to identified or identifiable persons (as per GDPR definition), otherwise "false".
 	  - | ejprd:personalData
 	* - **Theme**
-	  - Points to an URL that specifies relevant ontology concepts that classify the patient registry. Typically, these can be looked up using the `Ontology Lookup Service (OLS) <https://www.ebi.ac.uk/ols/index>`_ or Bioportal.
+	  - Points to an URL that specifies relevant ontology concepts that classify the data service. Typically, these can be looked up using the `Ontology Lookup Service (OLS) <https://www.ebi.ac.uk/ols/index>`_ or Bioportal.
 	  - | dcterms:theme
 	* - **Contact Point**
 	  - Pointer to a Contact Point, Range is vCard
 	  - | dcat:contactPoint 
 	* - **Language**
-	  - An ISO 639-1 two-letter code for the languages this patient registry is provided in. Example: en indicates that this patient registry is available in English. The range is an xsd:string. The ISO language codes can be found at: `ISO639-1 <https://id.loc.gov/vocabulary/iso639-1.html>`_ and `an example <http://id.loc.gov/vocabulary/iso639-1/en>`_. 
+	  - An ISO 639-1 two-letter code for the languages this data service is provided in. Example: en indicates that this data service is available in English. The range is an xsd:string. The ISO language codes can be found at: `ISO639-1 <https://id.loc.gov/vocabulary/iso639-1.html>`_ and `an example <http://id.loc.gov/vocabulary/iso639-1/en>`_. 
 	  - | dcterms:language 
 
 
@@ -91,7 +91,7 @@ Data services are resources that provide access to data or analytical tools via 
 	  - Used to indicate which dataset a DataService is serving data from. The URL of the dataset to which this service provides access. Range dcat:Dataset
 	  - | dcat:servesDataset
 	* - **Keyword**
-	  - Keywords applicable to this patient registry
+	  - Keywords applicable to this data service
 	  - | dcat:keyword
 	* - **identifier**
 	  - Identifier of this resource. It can be a link.  Range is an xsd:string

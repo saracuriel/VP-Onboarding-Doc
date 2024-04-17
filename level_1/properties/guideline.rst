@@ -14,13 +14,13 @@ Guideline
 	  - The name of the guideline. This is a required field and needs to be unique.
 	  - | dcterms:title
 	* - **Description**
-	  - A description of the patient registry.
+	  - A description of the guideline.
 	  - | dcterms:description
 	* - **License**
 	  - This should contain a URL that provides details regarding the license that is applicable to this resource. If no suitable license can be provided, then the default license should be used: `https://w3id.org/ejp-rd/resources/licenses/v1.0/ <https://w3id.org/ejp-rd/resources/licenses/v1.0/>`_. Other licenses are: `Creative Commons <https://creativecommons.org/licenses/>`_, e.g. `CC BY-NC-ND 4.0 Deed <http://creativecommons.org/licenses/by-nc-nd/4.0>`_
 	  - | dcterms:license
 	* - **Theme**
-	  - Points to an URL that specifies relevant ontology concepts that classify the patient registry. Typically, these can be looked up using the `Ontology Lookup Service (OLS) <https://www.ebi.ac.uk/ols/index>`_ or Bioportal.
+	  - Points to an URL that specifies relevant ontology concepts that classify the guideline. Typically, these can be looked up using the `Ontology Lookup Service (OLS) <https://www.ebi.ac.uk/ols/index>`_ or Bioportal.
 	  - | dcterms:theme
 	* - **Publisher**
 	  - Pointer to the Organisation that published the resource. The range is foaf:Organisation
@@ -32,7 +32,7 @@ Guideline
 	  - Pointer to a Contact Point, Range is vCard
 	  - | dcat:contactPoint 
 	* - **Language**
-	  - An ISO 639-1 two-letter code for the languages this patient registry is provided in. Example: en indicates that this patient registry is available in English. The range is an xsd:string. The ISO language codes can be found at: `ISO639-1 <https://id.loc.gov/vocabulary/iso639-1.html>`_ and `an example <http://id.loc.gov/vocabulary/iso639-1/en>`_.
+	  - An ISO 639-1 two-letter code for the languages this guideline is provided in. Example: en indicates that this guideline is available in English. The range is an xsd:string. The ISO language codes can be found at: `ISO639-1 <https://id.loc.gov/vocabulary/iso639-1.html>`_ and `an example <http://id.loc.gov/vocabulary/iso639-1/en>`_.
 	  - | dcterms:language 
 	* - **issued**
 	  - This resource publication date. The range is xsd:date
@@ -54,20 +54,6 @@ Guideline
 	* - **Access Rights**
 	  - Information about who can access the resource or an indication of its security status. This should point to a URL where this information can be found. We strongly recommend that access rights are described as `DUC CCE <https://duc.le.ac.uk/>`_ profile.
 	  - | dcterms:accessRights
-
-
-
-
-
-	* - **Endpoint Description**
-	  - A machine-readable document defining the API of the service (e.g., in openAPI). **This field is required for services that have an API.** This field is optional for services that are attached to Catalogue, or serve via a Web page.
-	  - | dcat:endpointDescription
-	* - **Endpoint URL**
-	  - The URL to which API requests are sent. **This field is required for services that have an API.** This field is optional for services that are attached to Catalogue, or serve via a Web page
-	  - | dcat:endpointURL
-	* - **Landing Page**
-	  - This a URL to a web page with more information regarding the Data Service. **This field is required for services that have an API.**
-	  - | dcat:landingPage
 
 
 **Optional Properties**
@@ -92,7 +78,7 @@ Guideline
 	  - If applicable, it should point to the URL, an established standard to which the data within the described resource conforms (e.g. MAGE-ML for Microarray data).
 	  - | dcterms:conformsTo
 	* - **Keyword**
-	  - Keywords applicable to this patient registry
+	  - Keywords applicable to this guideline
 	  - | dcat:keyword
 	* - **VP Connection**
 	  - This property is attached to every portion of your Metadata record that you wish the VP to explore (e.g. Dataset X, Data Service Y, but NOT Dataset Z). **If you do not add this tag to at least the description of your resource, you will not be onboarded.** The range is `http://purl.org/ejp-rd/vocabulary/VPDiscoverable <http://purl.org/ejp-rd/vocabulary/VPDiscoverable>`_ 
