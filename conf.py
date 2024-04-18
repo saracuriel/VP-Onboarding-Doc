@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 project = 'EJP RD Onboarding Document'
 copyright = '2024, EJP RD'
-author = 'EJP RD'
+author = 'EJP RD, EJP RD FAIRification Stewards'
 
 # The short X.Y version
 version = ''
