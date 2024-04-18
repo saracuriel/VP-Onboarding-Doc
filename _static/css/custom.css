@@ -18,6 +18,6 @@ table thead p, table tbody p, table tbody .line {
 	list-style: lower-alpha !important;
 }
 
-#how-to-onboard-to-level-1-using-the-ejp-rd-metadata-schema p {
+#how-to-onboard-to-level-1-using-the-ejp-rd-metadata-schema p, #how-to-onboard-to-level-1-using-the-ejp-rd-metadata-schema dt {
 	text-align: justify;
 }
