@@ -54,7 +54,7 @@ Level 2 onboarding solutions
      - Yes
    * - `EJP RD Beacon v2 DIY <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/solutions/dyi.html#>`_
      - A custom solution can be created by any developer comfortable with Python/Flask or similar backend technologies (support and guidance on this is available).
-     -  
+     - A 
      - Licensing will depend on the technologies chosen for your custom solution. 
      -  
      - No 
