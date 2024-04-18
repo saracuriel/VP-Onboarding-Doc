@@ -8,3 +8,16 @@ table thead p, table tbody p, table tbody .line {
 		text-wrap: auto !important;
 	}
 }
+
+
+#how-to-onboard-to-level-1-using-the-ejp-rd-metadata-schema dt {
+	font-weight: 500 !important;
+}
+
+#how-to-onboard-to-level-1-using-the-ejp-rd-metadata-schema ul.simple li {
+	list-style: lower-alpha !important;
+}
+
+#how-to-onboard-to-level-1-using-the-ejp-rd-metadata-schema p {
+	text-align: justify;
+}

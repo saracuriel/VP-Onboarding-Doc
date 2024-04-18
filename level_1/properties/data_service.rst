@@ -14,10 +14,10 @@ Data services are resources that provide access to data or analytical tools via 
 	  - Definition and usage note
 	  - URI
 	* - **License**
-	  - This should contain a URL that provides details regarding the license that is applicable to this resource. If no suitable license can be provided, then the default license should be used: `https://w3id.org/ejp-rd/resources/licenses/v1.0/ <https://w3id.org/ejp-rd/resources/licenses/v1.0/>`_. Other licenses are: `Creative Commons <https://creativecommons.org/licenses/>`_, e.g. `CC BY-NC-ND 4.0 Deed <http://creativecommons.org/licenses/by-nc-nd/4.0>`_
+	  - This should contain a URL that provides details regarding the license that is applicable to this resource. If no suitable license can be provided, then the default license should be used: `W3ID License v.10 <https://w3id.org/ejp-rd/resources/licenses/v1.0/>`_. Other licenses are: `Creative Commons <https://creativecommons.org/licenses/>`_, e.g. `CC BY-NC-ND 4.0 Deed <http://creativecommons.org/licenses/by-nc-nd/4.0>`_
 	  - | dcterms:license
 	* - **Type**
-	  - In the context of a Data Service, if the service is a Beacon, the range is either http://purl.org/ejp-rd/vocabulary/VPBeacon2_individuals or http://purl.org/ejp-rd/vocabulary/VPBeacon2_catalog. If the service is anything besides a Beacon, use one of the children of edam_operation.
+	  - In the context of a Data Service, if the service is a Beacon, the range is either http://purl.org/ejp-rd/vocabulary/VPBeacon2_individuals or http://purl.org/ejp-rd/vocabulary/VPBeacon2_catalog. If the service is anything besides a Beacon, use one of the children of `edam_operation <http://edamontology.org/operation_0004>`_.
 	  - | dcterms:type
 	* - **Title**
 	  - The name of the data service. This is a required field and needs to be unique.
