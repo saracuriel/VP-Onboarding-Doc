@@ -22,7 +22,11 @@ Mandatory Classes
 	  - "*Resource is a generic concept from the DCAT2 vocabulary. In our metadata model, we extended it with Rare Disease specific concepts like Biobank and Patient registry, which means that you rarely use this class directly, but indirectly through its extensions. We recommend that you avoid using dcat:Resource directly for your document unless the type that you are looking for is not available in this table (not a Biobank, Patient Registry, Dataset, Data Service, or Guideline). At least one of the resource types described in this table is Mandatory.*"
 	  - dcat:Resource (use dcat:Dataset, dcat:DataService, ejprd:PatientRegistry, ejprd:Guideline, or ejprd:Biobank according to your resource type)
 
-	  **Attention:** You must use one (and only one) of the specified mandatory classes to characterise your resource. Choose the class that best represents the type of resource you are describing.
+
+.. warning::
+
+	You must use one (and only one) of the mandatory classes specified in the table below to characterise your resource. Choose the class that best represents the type of resource you are describing.
+
 
 .. list-table:: Level 1 - Mandatory Classes for Resource Type
 	:widths: 20 60 20
