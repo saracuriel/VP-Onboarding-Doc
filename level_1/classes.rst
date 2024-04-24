@@ -23,6 +23,9 @@ Mandatory Classes
 	  - dcat:Resource (use dcat:Dataset, dcat:DataService, ejprd:PatientRegistry, ejprd:Guideline, or ejprd:Biobank according to your resource type)
 
 
+Mandatory Classes (per resource type)
+~~~~~~~~~~~~
+
 .. warning::
 
 	You must use one (and only one) of the mandatory classes specified in the table below to characterise your resource. Choose the class that best represents the type of resource you are describing.
