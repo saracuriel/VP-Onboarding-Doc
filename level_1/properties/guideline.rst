@@ -81,7 +81,7 @@ Guideline
 	  - Keywords applicable to this guideline
 	  - | dcat:keyword
 	* - **VP Connection**
-	  - This property is attached to every portion of your Metadata record that you wish the VP to explore (e.g. Dataset X, Data Service Y, but NOT Dataset Z). **If you do not add this tag to at least the description of your resource, you will not be onboarded.** The range is `http://purl.org/ejp-rd/vocabulary/VPDiscoverable <http://purl.org/ejp-rd/vocabulary/VPDiscoverable>`_ 
+	  - This property is attached to every portion of your Metadata record that you wish the VP to explore (e.g. Dataset X, Data Service Y, but NOT Dataset Z). **If you do not add this tag to at least the description of your resource, you will not be onboarded.** The range is `https://w3id.org/ejp-rd/vocabulary#VPDiscoverable <https://w3id.org/ejp-rd/vocabulary#VPDiscoverable>`_ 
 	  - | ejprd:vpConnection
 	* - **identifier**
 	  - Identifier of this resource. It can be a link.  Range is an xsd:string

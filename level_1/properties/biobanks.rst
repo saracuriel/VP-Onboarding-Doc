@@ -70,7 +70,7 @@ Biobanks
 	  - Use this property to point to the distribution of this dataset when a distribution is available. Range is dcat:Distribution.
 	  - | dcat:distribution
 	* - **VP Connection**
-  	  - This property is attached to every portion of your Metadata record that you wish the VP to explore (e.g. Dataset X, Data Service Y, but NOT Dataset Z). **If you do not add this tag to at least the description of your resource, you will not be onboarded.** The range is `http://purl.org/ejp-rd/vocabulary/VPDiscoverable <http://purl.org/ejp-rd/vocabulary/VPDiscoverable>`_ 
+  	  - This property is attached to every portion of your Metadata record that you wish the VP to explore (e.g. Dataset X, Data Service Y, but NOT Dataset Z). **If you do not add this tag to at least the description of your resource, you will not be onboarded.** The range is `https://w3id.org/ejp-rd/vocabulary#VPDiscoverable <https://w3id.org/ejp-rd/vocabulary#VPDiscoverable>`_ 
 	  - | ejprd:vpConnection
 	* - **ODRL Policy**
 	  - An ODRL conformant policy document (`https://www.w3.org/TR/odrl-model/ <https://www.w3.org/TR/odrl-model/>`_) expressing the rights and/or responsibilities associated with access to and/or use of the resource. This should point to a URL where this conformant document has been published.
