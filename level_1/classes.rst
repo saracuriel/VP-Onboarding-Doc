@@ -61,8 +61,8 @@ Recommended Classes
 
 .. warning::
 
-	Note that this class is mandatory for FDP Reference Implementation and FiaB, since you cannot create any kind of dataset without first having a Catalog, even if the Catalog has almost no useful metadata
-	
+	Note that this class is **mandatory** for FDP Reference Implementation and FiaB, since you cannot create any kind of dataset without first having a Catalog, even if the Catalog has almost no useful metadata
+
 
 .. list-table:: Level 1 - Recommended Classes
 	:widths: 20 60 20
