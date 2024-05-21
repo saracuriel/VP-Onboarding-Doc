@@ -40,3 +40,5 @@ Contact the onboarding team
 
 For any questions on the onboarding process, in any state of readiness, please don’t hesitate to reach out to the onboarding team via `vp.onboarding@ejprd-project.eu <mailto:vp.onboarding@ejprd-project.eu>`_.
 
+In addition, issues related to this document can be quickly reported via `Github Issues <https://github.com/ejp-rd-vp/VP-Onboarding-Doc/issues>`_.
+
