@@ -33,7 +33,7 @@ Catalogue
 	  - Pointer to a Contact Point, Range is vCard
 	  - | dcat:contactPoint 
 	* - **Language**
-	  - An ISO 639-1 two-letter code for the languages this catalogue is provided in. Example: en indicates that this catalogue is available in English. The range is an xsd:string. The ISO language codes can be found at:  https://id.loc.gov/vocabulary/iso639-1.html  and an example:  http://id.loc.gov/vocabulary/iso639-1/en 
+	  - An ISO 639-1 two-letter code for the languages this catalogue is provided in. Example: en indicates that this catalogue is available in English. The range is an xsd:string. The ISO language codes can be found at:  `https://id.loc.gov/vocabulary/iso639-1.html  <https://id.loc.gov/vocabulary/iso639-1.html>`_  and an example:  `http://id.loc.gov/vocabulary/iso639-1/en  <http://id.loc.gov/vocabulary/iso639-1/en>`_ 
 	  - | dcterms:language 
 
 
