@@ -15,7 +15,7 @@ To illustrate, let us consider the “ERN Bond Catalogue” which can be defined
 
 Figure 5 also depicts what information is mandatory for resources connecting to the VP, what is recommended to have and what is optional. It is important to note that certain classes are not applicable to certain cases. For instance, the class Resource is displayed in italic because it represents an abstract class. Abstract classes cannot be instantiated directly but serve as a basis for derived subclasses (such as Patient Registry, Datasets, Biobanks, etc..). Therefore, it is not expected to describe a Data Service as a Patient Registry. Although they can be described by the same schema, they should be represented by different instances. 
 
-..  figure:: https://github.com/ejp-rd-vp/resource-metadata-schema/blob/master/images/correctKeywordOrganisation.png?raw=true
+..  figure:: https://github.com/ejp-rd-vp/resource-metadata-schema/blob/master/images/figure_model_stable.png?raw=true
     :alt:  Metadata schema for connection to the Rare Diseases Virtual Platform diagram. 
     :width: 100%
 
