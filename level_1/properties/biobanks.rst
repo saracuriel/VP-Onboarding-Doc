@@ -23,6 +23,9 @@ Biobanks
 	* - **Theme**
 	  - Points to an URL that specifies relevant ontology concepts that classify the biobank. Typically, these can be looked up using the `Ontology Lookup Service (OLS) <https://www.ebi.ac.uk/ols/index>`_ or Bioportal.
 	  - | dcterms:theme
+	* - **Keyword**
+	  - Keywords applicable to this patient registry
+	  - | dcterms:keyword
 	* - **Publisher**
 	  - Pointer to the Organisation that published the resource. The range is foaf:Organisation
 	  - | dcterms:publisher
@@ -75,9 +78,6 @@ Biobanks
 	* - **ODRL Policy**
 	  - An ODRL conformant policy document (`https://www.w3.org/TR/odrl-model/ <https://www.w3.org/TR/odrl-model/>`_) expressing the rights and/or responsibilities associated with access to and/or use of the resource. This should point to a URL where this conformant document has been published.
 	  - | odrl:hasPolicy
-	* - **Keyword**
-	  - Keywords applicable to this biobank
-	  - | dcat:keyword
 	* - **Logo**
 	  - A link to the graphic representation of this resource.
 	  - | foaf:logo
