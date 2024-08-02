@@ -119,11 +119,11 @@ htmlhelp_basename = 'EJP RD VP Onboarding Document'
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_elements = {
-    The paper size ('letterpaper' or 'a4paper').
+    # The paper size ('letterpaper' or 'a4paper').
     
     'papersize': 'a4paper',
 
-    The font size ('10pt', '11pt' or '12pt').
+    # The font size ('10pt', '11pt' or '12pt').
     
     'pointsize': '10pt',
 
