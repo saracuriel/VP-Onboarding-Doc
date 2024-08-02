@@ -22,6 +22,7 @@ sys.path.insert(0, os.path.abspath('.'))
 project = 'EJP RD Onboarding Document'
 copyright = '2024, EJP RD'
 author = 'EJP RD, EJP RD FAIRification Stewards'
+#code by C. Bernabe
 
 # The short X.Y version
 version = ''
@@ -41,7 +42,7 @@ release = ''
 extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
-    # 'ejprdonboarding',
+    'ejprdonboarding',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -50,8 +51,8 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
+# source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
@@ -118,28 +119,28 @@ htmlhelp_basename = 'EJP RD VP Onboarding Document'
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    # 'papersize': 'letterpaper',
+    The paper size ('letterpaper' or 'a4paper').
+    
+    'papersize': 'a4paper',
 
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
+    The font size ('10pt', '11pt' or '12pt').
+    
+    'pointsize': '10pt',
 
     # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
+    
+    'preamble': '',
 
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
+    Latex figure (float) alignment
+    
+    'figure_align': 'htbp',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Onboarding.tex', 'EJP RD VP Onboarding Documentation',
+    (master_doc, 'OnboardingDocument.tex', 'EJP RD VP Onboarding Documentation',
      'EJP RD', 'manual'),
 ]
 
