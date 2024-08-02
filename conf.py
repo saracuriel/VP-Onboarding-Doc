@@ -41,8 +41,8 @@ release = ''
 # ones.
 extensions = [
     'sphinx.ext.mathjax',
-    'sphinx.ext.ifconfig',
-    'ejprdonboarding',
+    'sphinx.ext.ifconfig'
+    # 'ejprdonboarding',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
