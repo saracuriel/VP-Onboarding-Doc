@@ -76,7 +76,7 @@ DCAT vocabulary already has a concept dcat:Dataset which is a sub-class of dcat:
 	  - | odrl:hasPolicy
 	* - **Keyword**
 	  - Keywords applicable to this dataset
-	  - | dcat:keyword
+	  - | dcterms:keyword
 	* - **Logo**
 	  - A link to the graphic representation of this resource.
 	  - | foaf:logo
