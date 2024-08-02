@@ -19,4 +19,4 @@ Figure 5 also depicts what information is mandatory for resources connecting to 
     :alt:  Metadata schema for connection to the Rare Diseases Virtual Platform diagram. 
     :width: 100%
 
-    Figure 5 Metadata schema for connection to the Rare Diseases Virtual Platform diagram. Source: `link <https://github.com/ejp-rd-vp/resource-metadata-schema/blob/master/images/diagram_onboarding_doc/ejprdmetadataschema.png>`_ 
+    Figure 5 Metadata schema for connection to the Rare Diseases Virtual Platform diagram. Source: `link <https://github.com/ejp-rd-vp/resource-metadata-schema/blob/master/images/figure_model_stable.png?raw=true>`_ 
