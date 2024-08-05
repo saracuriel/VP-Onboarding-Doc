@@ -60,7 +60,7 @@ Level 2 onboarding solutions
      - No 
      - 
    * - `Beacon4Biobanks <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/solutions/b4b.html#>`_
-     - A solution specific for biobanks that are part or plan to be part of the `BBMRI Sample Locator <https://samplelocator.bbmri.de/>`.
+     - A solution specific for biobanks that are part or plan to be part of the `BBMRI Sample Locator <https://samplelocator.bbmri.de/>`_.
      - Beacon4Biobanks implements the /individuals and /biosamples endpoints of the VP API Specs by querying the FHIR Store of the Sample Locator 
      - It is based on the Beacon Reference Implementation so it has the same license (Apache License 2)
      -  
