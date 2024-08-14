@@ -36,7 +36,7 @@ Data services are resources that provide access to data or analytical tools via 
 	  - | dcterms:theme
 	* - **Keyword**
 	  - Keywords applicable to this patient registry
-	  - | dcterms:keyword
+	  - | dcat:keyword
 	* - **Contact Point**
 	  - Pointer to a Contact Point, Range is vCard
 	  - | dcat:contactPoint 

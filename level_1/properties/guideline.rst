@@ -24,7 +24,7 @@ Guideline
 	  - | dcterms:theme
 	* - **Keyword**
 	  - Keywords applicable to this patient registry
-	  - | dcterms:keyword
+	  - | dcat:keyword
 	* - **Publisher**
 	  - Pointer to the Organisation that published the resource. The range is foaf:Organisation
 	  - | dcterms:publisher

@@ -77,5 +77,6 @@ Level 2 onboarding solutions
    solutions/biab
    solutions/fiab
    solutions/dyi
+   solutions/b4b
 
    
