@@ -33,7 +33,7 @@ Data services are resources that provide access to data or analytical tools via 
 	  - | ejprd:personalData
 	* - **Theme**
 	  - Points to an URL that specifies relevant ontology concepts that classify the data service. Typically, these can be looked up using the `Ontology Lookup Service (OLS) <https://www.ebi.ac.uk/ols/index>`_ or Bioportal.
-	  - | dcterms:theme
+	  - | dcat:theme
 	* - **Keyword**
 	  - Keywords applicable to this patient registry
 	  - | dcat:keyword
