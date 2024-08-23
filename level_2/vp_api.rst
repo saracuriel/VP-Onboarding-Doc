@@ -1,7 +1,7 @@
 How to onboard to Level 2 using the VP-API Specification
 ------------
 
-Transitioning to Level 2 involves seamlessly integrating resources with the EJP RD VP API Specification, a gateway to further unlock the capabilities of the Virtual Platform. This integration is facilitated by a suite of optional tools that pave the way for a comprehensive resource discovery experience. We offer five solutions for onboarding, which are described in the following sections. Figure 7 depicts the steps of the Level 2 onboarding process.
+Setting up Level 2 involves seamlessly integrating resources with the EJP RD VP API Specification. This is facilitated by installing any one of a suite of optional tools. Specifically, we offer five solutions for Level 2 onboarding, which are described in the following sections. Figure 7 depicts the steps of the Level 2 onboarding process.
 
 ..  figure:: _images/f7.png
     :alt:  Level 2 onboarding process overview
@@ -25,10 +25,10 @@ Level 2 onboarding solutions
      - Supports Level 1?
      - Supports Level 2?
    * - `RD-Nexus <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/solutions/rd_nexus.html>`_
-     - RD-Nexus is a convenient data discovery tool that adapts to many use cases and diverse datatypes. It utilises graph-based technologies to leverage semantic similarity and ontology mapping standards and is compatible with any input data format. Compliant with all major RD standards.   
-     - API support for Any/All EJP RD Beacon v2 queries; Storage and Query of Metadata; Storage and Query of safe (or rich) demographic, sample, phenotypic and other data (omics, tabular, images); Ingest/Use any data format; Real-time query execution; Powerful similarity searching (phenotypes and disease); Enforce ontologies or controlled vocabularies; Dockerised & Non-Dockerised Install options; Inbuilt modular query & admin interfaces; Supports federated AuthN/AuthZ (inc LS AAI); Secure operation across firewall (via polling); Create/Manage secure custom networks.  
+     - RD-Nexus is a dedicated data discovery tool that adapts to many use cases and diverse datatypes. It utilises conventional and graph-based technologies to leverage semantic similarity and ontology mapping standards and is compatible with any input data format. Compliant with all major RD standards.   
+     - Support for Any/All EJP RD Beacon v2 queries; Storage and Query of Metadata; Storage and Query of safe (or rich) demographic, sample, phenotypic and other data (omics, tabular, images); Ingest/Use any data format; Real-time query execution; Powerful similarity searching (phenotypes and disease); Enforce ontologies or controlled vocabularies; Dockerised & Non-Dockerised Install options; Inbuilt modular query & admin interfaces; Supports federated AuthN/AuthZ (inc LS AAI); Secure operation across firewall (via polling); Create/Manage secure custom networks.  
      - RD-Nexus is free to use under the MIT License.
-     - Yes: Installation and hosting support. Demo and customisation support. Guidance on setting up private networks.   
+     - Yes: Local installation and hosting options available. Demo and customisation support. Guidance on setting up private networks.   
      - Yes
      - Yes
    * - `MOLGENIS <https://vp-onboarding-doc.readthedocs.io/en/latest/level_2/solutions/molgenis.html>`_
