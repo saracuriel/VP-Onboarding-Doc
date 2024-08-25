@@ -21,3 +21,4 @@ Please note that the PURL links may be updated in future releases of the onboard
    classes
    properties
    onboard
+   validator

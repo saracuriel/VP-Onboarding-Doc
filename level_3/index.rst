@@ -1,4 +1,4 @@
-Level 3: Information
+Level 3: Data Analysis
 ===================================
 
 Level 3 of connection to the VP allows for analysis of a resource's data. To enable this, semantic models for metadata (Level 1) and for data (Level 2) are required. A variety of queries can be run on FAIRified record-level data using, for instance, SPARQL in a secure triplestore repository controlled by credentials, such as GraphDB [`link <https://graphdb.ontotext.com/>`_], or via pre-approved, privacy-preserving queries that are shared between data resources. 
