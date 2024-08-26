@@ -6,7 +6,6 @@ Different validators can be combined to validate adherence to different oboardin
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
 
    validator_l1
    validator_l2
