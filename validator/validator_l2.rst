@@ -1,4 +1,4 @@
-Validate L2 implementation:
+Validate L2 implementation
 ------------
 
 If you have set up a beacon2 endpoint, the Virtual Platform needs to discover it through your FAIR Data Point (FDP) metadata. For that reason, a service similar to the one used for validating L1 implementations is available for testing your Beacon2 deployment metadata. The rationale is the same, with the only difference being the assessment link.
