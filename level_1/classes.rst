@@ -87,5 +87,5 @@ Optional Classes
 	  - Definition and usage note
 	  - URI
 	* - `Distribution <properties/distribution.html>`_
-	  - A single dataset can be made available in different ways through a Data Service.
+	  - A single dataset can be made available via a Data Service.
 	  - dcat:Distribution
