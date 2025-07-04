@@ -21,6 +21,11 @@ Mandatory Classes
 	* - "*Resource*"
 	  - "*Resource is a generic concept from the DCAT2 vocabulary. In our metadata model, we extended it with Rare Disease specific concepts like Biobank and Patient registry, which means that you rarely use this class directly, but indirectly through its extensions. We recommend that you avoid using dcat:Resource directly for your document unless the type that you are looking for is not available in this table (not a Biobank, Patient Registry, Dataset, Data Service, or Guideline). At least one of the resource types described in this table is Mandatory.*"
 	  - dcat:Resource (use dcat:Dataset, dcat:DataService, ejprd:PatientRegistry, ejprd:Guideline, or ejprd:Biobank according to your resource type)
+	* - `Distribution <properties/distribution.html>`_
+	  - A single dataset can be made available via a Data Service. It is important to note that this requirement is being imposed for all health data providers. Its implementation here is not an arbitrary decision, but rather a regulatory obligation that is expected to be met. Implementing it here offers a clear way to ease compliance with the requirement and ensures consistency across the board.
+
+
+	  - dcat:Distribution
 
 
 Mandatory Classes (per resource type)
@@ -74,18 +79,3 @@ Recommended Classes
 	* - `Catalogue <properties/catalog.html>`_
 	  - If your organisation wants to bundle numerous datasets, data services, biobanks, patient registries, or guidelines together under a single title, you need to fill in this sheet.
 	  - dcat:Catalog
-
-
-Optional Classes
-~~~~~~~~~~~~
-
-.. list-table:: Level 1 - Optional Classes
-	:widths: 20 60 20
-	:header-rows: 1
-
-	* - Class
-	  - Definition and usage note
-	  - URI
-	* - `Distribution <properties/distribution.html>`_
-	  - A single dataset can be made available via a Data Service.
-	  - dcat:Distribution
