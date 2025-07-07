@@ -23,7 +23,7 @@ Mandatory Classes
 	  - dcat:Resource (use dcat:Dataset, dcat:DataService, ejprd:PatientRegistry, ejprd:Guideline, or ejprd:Biobank according to your resource type)
 
 
-Class definitions
+Class definitions (per Resource Type)
 ~~~~~~~~~~~~
 
 .. warning::
