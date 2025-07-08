@@ -20,7 +20,7 @@ Funding
     :alt:  Europe
     :width: 20%
 
-    H2020-SC1-2018-Single-Stage-RTD; SC1-BHC-04-2018; Rare Disease European Joint Programme Cofund; Grant agreement number 825575
+    HORIZON-HLTH-2023-DISEASE-07; HLTH-2023-DISEASE-07-05; European Rare Diseases Research Alliance (ERDERA); Grant agreement number 101156595
 
 
 .. toctree::
