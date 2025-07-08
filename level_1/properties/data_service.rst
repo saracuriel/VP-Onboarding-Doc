@@ -1,7 +1,7 @@
 Data Service
 ~~~~~~~~~~~~
 
-Data services are resources that provide access to data or analytical tools via some interface. The interface may be machine-readable (I.e., an Application Programming Interface – API) or via a Web page for humans to interact manually. There are different conventions for data services on the VP Portal, depending on the “nature” of the service. Resources that serve via a Web page, **must have** a landingPage property, while those that serve via an API **must have** both an endpointURL and endpointDescription. On the EJP VP, a service that serves a DCAT Dataset **must be** connected to a DCAT Distribution of that Dataset via the dcat:accessService property. A service not serving a dataset (e.g., a statistical analysis service, or an ontology lookup service) **must be** connected to the top-level DCAT Catalog via the dcat:service property.
+Data services are resources that provide access to data or analytical tools via some interface. The interface may be machine-readable (I.e., an Application Programming Interface – API) or via a Web page for humans to interact manually. There are different conventions for data services on the VP Portal, depending on the “nature” of the service. Resources that serve via a Web page, **must have** a landingPage property, while those that serve via an API **must have** both an endpointURL and endpointDescription. On the ERDERA VP, a service that serves a DCAT Dataset **must be** connected to a DCAT Distribution of that Dataset via the dcat:accessService property. A service not serving a dataset (e.g., a statistical analysis service, or an ontology lookup service) **must be** connected to the top-level DCAT Catalog via the dcat:service property.
 
 
 **Mandatory Properties**
