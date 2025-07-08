@@ -1,4 +1,4 @@
-EJP RD Metadata Schema Classes
+ERDERA Metadata Schema Classes
 ------------
 
 The tables that follow describe all classes depicted in Figure 5. The tables also provide usage notes for the classes’ properties. 
@@ -16,7 +16,7 @@ Mandatory Classes
 	  - Definition and usage note
 	  - URI
 	* - `Organisation <properties/organization.html>`_
-	  - To add resources to the EJP RD Virtual Platform the organisations that provide the resources need to be registered first. For each organisation, the biobanks, patient registries, guidelines, datasets (which may have associated data services) or data services (with no specific dataset), provided by the organisation, need to be added.
+	  - To add resources to the ERDERA RD Virtual Platform the organisations that provide the resources need to be registered first. For each organisation, the biobanks, patient registries, guidelines, datasets (which may have associated data services) or data services (with no specific dataset), provided by the organisation, need to be added.
 	  - foaf:Organisation
 	* - "*Resource*"
 	  - "*Resource is a generic concept from the DCAT2 vocabulary. In our metadata model, we extended it with Rare Disease specific concepts like Biobank and Patient registry, which means that you rarely use this class directly, but indirectly through its extensions. We recommend that you avoid using dcat:Resource directly for your document unless the type that you are looking for is not available in this table (not a Biobank, Patient Registry, Dataset, Data Service, or Guideline). At least one of the resource types described in this table is Mandatory.*"
@@ -39,10 +39,10 @@ Class definitions (per Resource Type)
 	  - Definition and usage note
 	  - URI
 	* - `Patient Registries <properties/patient_registry.html>`_ **(Resource Type)**
-	  - Defines all the patient registries for this EJP RD resource in the case where datasets are about content of a rare disease resource such as a patient registry. This class can be used under Catalogue.
+	  - Defines all the patient registries for this ERDERA resource in the case where datasets are about content of a rare disease resource such as a patient registry. This class can be used under Catalogue.
 	  - ejprd:PatientRegistry
 	* - `Biobanks <properties/biobanks.html>`_ **(Resource Type)**
-	  - Defines all the biobanks for this EJP RD resource in the case where datasets are about the content of a rare disease resource such as a biobank. This class can be used under Catalogue.
+	  - Defines all the biobanks for this ERDERA resource in the case where datasets are about the content of a rare disease resource such as a biobank. This class can be used under Catalogue.
 	  - ejprd:Biobank
         * - `Distribution <properties/distribution.html>`_
 	  - A single dataset can be made available via a Data Service. It is important to note that this requirement is being imposed for all health data providers. Its implementation here is not an arbitrary decision, but rather a regulatory obligation that is expected to be met. Implementing it here offers a clear way to ease compliance with the requirement and ensures consistency across the board. Note that distributions are entirely optional.
